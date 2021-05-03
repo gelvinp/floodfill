@@ -1,6 +1,5 @@
 /*  Author: Patrick Gelvin
     Date: April 1st, 2021
-    Description: blaghfhh
     Usage: ./floodfill
         Then follow on screen instructions
 */
@@ -141,7 +140,7 @@ int main() {
         }
     }
 
-    // Extra credit time
+    // Ask user if they want to play minesweeper with the generated board
     char game = getChar("Want to play MineSweeper with this board?\n"
                         "Enter uppercase Y to play or anything else to flood fill: ");
     
